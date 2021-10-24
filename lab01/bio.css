@@ -1,0 +1,83 @@
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", "sans-serif";
+    font-size: 18pt;
+    text-align: left;
+    text-decoration: underline;
+    padding: 3pt 3pt 3pt 5pt;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold
+}
+
+.header {
+    background-color: #404040;
+    color: whitesmoke;
+}
+
+.header_image {
+    width: 30pt;
+    margin: 2pt 2pt 5pt 5pt;
+}
+
+.dati {
+    height: auto;
+    overflow: auto;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    min-width: 1024px;
+    color: #404040;
+    font-size: 11pt;
+    font-family: "Georgia", "Garamond", "serif";
+}
+
+a {
+    color: #A4A400
+}
+
+footer {
+    background-color: #404040;
+    color: #F0F0F0;
+    text-align: center;
+    line-height: 18pt;
+    padding: 4pt 4pt 0;
+}
+
+.home {
+    text-align: center;
+    font-size: 22pt;
+    padding: 5pt;
+}
+
+p, td, li, dd, dl {
+    padding: 3pt;
+    letter-spacing: 0.1em;
+}
+
+.lavoro, .link, .interessi {
+    padding-left: 5pt;
+}
+
+.avatar-img {
+    width: 240px;
+    height: 240px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-image: url(img/fav.ico);
+}

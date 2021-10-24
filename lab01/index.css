@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header {
+    background-color: #404040;
+    color: whitesmoke;
+}
+
+.header_image {
+    width: 30pt;
+    margin: 2pt 2pt 5pt 5pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: "Georgia", "Garamond", "serif";
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", "sans-serif";
+    font-size: 18pt;
+    text-align: left;
+    text-decoration: underline;
+    padding: 3pt 3pt 3pt 5pt;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+p, table, ul, ol {
+    font-size: 11pt;
+    font-family: "Georgia", "Garamond", "serif";
+}
+
+p, pre, li, td {
+    padding: 0 16pt 7pt 16pt;
+    letter-spacing: 0.1em;
+}
+
+dt {
+    padding: 0 16pt 0pt 16pt;
+    letter-spacing: 0.1em;
+}
+
+dd {
+    padding:0 10pt 7pt 10pt;
+}
+
+caption {
+    font-size: 14pt;
+}
+
+a {
+    color: #A4A400
+}
+
+footer {
+    background-color: #404040;
+    color: #F0F0F0;
+    text-align: center;
+    line-height: 20pt;
+    padding: 4pt 4pt 0;
+}
+
+.home {
+    text-align: center;
+    font-size: 22pt;
+    padding: 5pt;
+}
+
+table {
+    border-radius: 5%;
+    border: 3px black solid
+}
+
+.table {
+    text-align: -webkit-center;
+    overflow: auto;
+    padding: 10pt;
+}
+
