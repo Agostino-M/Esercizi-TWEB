@@ -1,5 +1,5 @@
 <?php
-// Getting the movie title from the query pharams of the url 
+// Get the movie title from the url query parameters
 $movie = $_GET["film"];
 ?>
 
@@ -26,7 +26,7 @@ $movie = $_GET["film"];
 
     <h1 id="title">
         <?php
-        // Opening the file info.txt from the film folder stored in $movie and printing the name and the date of release
+        // Opening the info.txt file from the movie folder stored in $ movie and printing the name and release date
         $info = file("$movie/info.txt");
         echo trim($info[0]) . ' (' . trim($info[1]) . ')';
         ?>
@@ -40,10 +40,9 @@ $movie = $_GET["film"];
             <dl>
                 <?php
                 /*
-                Opening the file overview.txt from the film folder stored in $movie, exploding the selected row with the ':' character
-                and printing the title of the list and its definition
+                Opening the overview.txt file from the movie folder stored in $ movie
+                exploding the selected line with the ':' character and printing the title of the list and its definition
                 */
-
                 $overview = file("$movie/overview.txt");
 
                 for ($i = 0; $i < count($overview); $i++) {
@@ -59,7 +58,7 @@ $movie = $_GET["film"];
         <div id="box-reviews">
             <div id="rotten-image">
                 <?php
-                // chosing and printing the image name based of the percentage value
+                // choice and printing of the image name based on the percentage value
                 if ($info[2] >= 60) {
                     $rotten_img = 'freshbig';
                 } else {
@@ -77,7 +76,7 @@ $movie = $_GET["film"];
             ?>
             <div id="left-column">
                 <?php
-                // printing each publication and review for the left column
+                // printing of each publication and review for the left column
                 for ($i = 0; $i < ceil($total_reviews / 2); $i++) {
                     $actual_file = file($reviews[$i]);
                 ?>
@@ -98,7 +97,7 @@ $movie = $_GET["film"];
             </div>
             <div id="right-column">
                 <?php
-                // printing each publication and review for the right column
+                // printing of each publication and review for the right column
                 for ($i = ceil($total_reviews / 2); $i < $total_reviews; $i++) {
                     $actual_file = file($reviews[$i]);
                 ?>
