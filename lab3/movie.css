@@ -1,0 +1,142 @@
+/*
+    Author: Agostino Messina
+    Section: movie.css
+ */
+
+ body {
+    background-image: url("http://www.cs.washington.edu/education/courses/cse190m/11sp/homework/2/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body, dd > ul {
+    padding: 0;
+}
+
+body, #validators > p {
+    margin: 0;
+}
+
+#header {
+    background-image: url("http://www.cs.washington.edu/education/courses/cse190m/11sp/homework/2/bannerbg.png");
+    height: 50px;
+}
+
+#header, #title, #page {
+    text-align: center;
+}
+
+#title {
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+#title, #rating, .review {
+    font-weight: bold;
+}
+
+#box {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    border: #999999 solid 4px;
+    border-radius: 20px;
+}
+
+#box, #box-reviews, .review {
+    overflow: auto;
+}
+
+#box-reviews {
+    width: 550px;
+    text-align: left;
+}
+
+#rotten-image {
+    height: 83px;
+    background-image: url("http://www.cs.washington.edu/education/courses/cse190m/11sp/homework/2/rbg.png");
+}
+
+#rating {
+    vertical-align: text-bottom;
+    font-size: 48pt;
+    color: red;
+}
+
+#right-column, #left-column {
+    width: 47%;
+}
+
+#left-column {
+    margin-left: 2%;
+}
+
+#left-column, #right-column {
+    margin-right: 2%;
+}
+
+#left-column, .icon, .avatar {
+    float: left;
+}
+
+#right-column, #general-overview {
+    float: right;
+}
+
+.review {
+    background-color: #E8DC9B;
+    border: #999999 solid 2px;
+    font-size: 8pt;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.icon, .avatar {
+    padding-right: 5px;
+}
+
+.magazine {
+    font-style: italic;
+}
+
+.publication {
+    padding-bottom: 20pt;
+}
+
+#general-overview {
+    width: 250px;
+}
+
+#general-overview, #page {
+    background-color: #A2B964;
+}
+
+#general-overview dl {
+    padding-right: 10pt;
+    padding-left: 10pt;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+#general-overview dt {
+    margin-top: 10pt;
+    font-weight: bold;
+}
+
+dd > ul {
+    list-style-type: none;
+}
+
+#page {
+    padding: 5pt;
+    clear: right;
+    margin-bottom: 0;
+}
+
+#validators {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 50%;
+}
